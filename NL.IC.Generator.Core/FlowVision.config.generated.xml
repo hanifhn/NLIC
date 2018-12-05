@@ -1,0 +1,30 @@
+<configuration>
+  <core>
+    <workItemKinds>
+      <kind name="" type="" maxHoursInFutureForSigningPeriod="">
+        <variants>
+          <variant name="" rank="" />
+        </variants>
+      </kind>
+    </workItemKinds>
+  </core>
+  <presentation>
+    <modules>
+      <module name="" visibleForRoles="">
+        <workspaces>
+          <workspace kind="">
+            <workflowSteps>
+              <workflowStep name="" displayOrder="" states="" allowCreationInState="" />
+              <workflowStep name="" displayOrder="" states="" allowCreationInState="" />
+              <workflowStep name="" displayOrder="" states="" allowCreationInState="" />
+            </workflowSteps>
+            <wizard>
+              <step id="" visibleFromWorkflowSteps="" />
+              <step id="" visibleFromWorkflowSteps="" />
+            </wizard>
+          </workspace>
+        </workspaces>
+      </module>
+    </modules>
+  </presentation>
+</configuration>

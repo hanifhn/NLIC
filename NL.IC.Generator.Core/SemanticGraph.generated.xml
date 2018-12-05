@@ -1,0 +1,232 @@
+<?xml version="1.0"?>
+<SemanticGraph xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" MediatorNode="configuration" MediatorNodeType="root" NodeNameIsNodeValue="false">
+  <SemanticClusters>
+    <SemanticCluster MediatorNodeType="root" NodeNameIsNodeValue="false" SemanticKey="Definitions" ValueIsIncrimental="false">
+      <SemanticClusters />
+      <Paragraph>
+        <OriginalText>This document defines the specification of customer requirements in a semantic way which can be configured on Permit Vision version 8.</OriginalText>
+      </Paragraph>
+    </SemanticCluster>
+    <SemanticCluster MediatorNode="workItemKinds" MediatorNodeType="array" MediatorNodeParent="core" NodeNameIsNodeValue="false" SemanticKey="Work Items" ValueIsIncrimental="false">
+      <SemanticNodes />
+      <SemanticClusters>
+        <SemanticCluster MediatorNode="kind" MediatorNodeType="element" NodeNameIsNodeValue="false" SemanticKey="Work Item 1: Permit" ValueIsIncrimental="false">
+          <SemanticNodes>
+            <SemanticNode MediatorNode="name" MediatorNodeType="attribute" NodeNameIsNodeValue="false" SemanticKey="work item #: *" ValueIsIncrimental="false">
+              <SemanticNodes />
+            </SemanticNode>
+            <SemanticNode MediatorNode="type" MediatorNodeType="attribute" NodeNameIsNodeValue="false" SemanticKey="work item type is" ValueIsIncrimental="false">
+              <SemanticNodes />
+            </SemanticNode>
+            <SemanticNode MediatorNode="maxHoursInFutureForSigningPeriod" MediatorNodeType="attribute" NodeNameIsNodeValue="false" SemanticKey="maximum hour to sign is " ValueIsIncrimental="false">
+              <SemanticNodes />
+            </SemanticNode>
+            <SemanticNode MediatorNode="variants" MediatorNodeType="array" NodeNameIsNodeValue="false" SemanticKey="variants of " ValueIsIncrimental="false">
+              <SemanticNodes>
+                <SemanticNode MediatorNode="variant" MediatorNodeType="element" NodeNameIsNodeValue="false" ValueIsIncrimental="false">
+                  <SemanticNodes>
+                    <SemanticNode MediatorNode="name" MediatorNodeType="attribute" NodeNameIsNodeValue="false" SemanticKey="variant" ValueIsIncrimental="false">
+                      <SemanticNodes />
+                    </SemanticNode>
+                    <SemanticNode MediatorNode="rank" MediatorNodeType="attribute" NodeNameIsNodeValue="false" SemanticKey="rank" ValueIsIncrimental="false">
+                      <SemanticNodes />
+                    </SemanticNode>
+                  </SemanticNodes>
+                </SemanticNode>
+              </SemanticNodes>
+            </SemanticNode>
+          </SemanticNodes>
+          <SemanticClusters>
+            <SemanticCluster MediatorNode="workflowSteps" MediatorNodeType="array" MediatorNodeParent="workspace" NodeNameIsNodeValue="false" SemanticKey="Work Item Phases" ValueIsIncrimental="false">
+              <SemanticNodes />
+              <SemanticClusters>
+                <SemanticCluster MediatorNode="workflowStep" MediatorNodeType="element" NodeNameIsNodeValue="false" SemanticKey="Phase 1: Request" ValueIsIncrimental="false">
+                  <SemanticNodes>
+                    <SemanticNode MediatorNode="name" MediatorNodeType="attribute" NodeNameIsNodeValue="false" ValueIsIncrimental="false">
+                      <SemanticNodes />
+                    </SemanticNode>
+                    <SemanticNode MediatorNode="displayOrder" MediatorNodeType="attribute" NodeNameIsNodeValue="false" ValueIsIncrimental="true">
+                      <SemanticNodes />
+                    </SemanticNode>
+                    <SemanticNode MediatorNode="states" MediatorNodeType="attribute" NodeNameIsNodeValue="false" SemanticKey="state,states" ValueIsIncrimental="false">
+                      <SemanticNodes />
+                    </SemanticNode>
+                    <SemanticNode MediatorNode="allowCreationInState" MediatorNodeType="attribute" NodeNameIsNodeValue="false" SemanticKey="creational state, creational states" ValueIsIncrimental="false">
+                      <SemanticNodes />
+                    </SemanticNode>
+                  </SemanticNodes>
+                  <SemanticClusters />
+                  <Paragraph>
+                    <OriginalText>This phase has 1 state: Requesting. Also, the work item can be created at this phase and its creational state will be Requesting.</OriginalText>
+                  </Paragraph>
+                </SemanticCluster>
+                <SemanticCluster MediatorNode="workflowStep" MediatorNodeType="element" NodeNameIsNodeValue="false" SemanticKey="Phase 2: Live" ValueIsIncrimental="false">
+                  <SemanticNodes>
+                    <SemanticNode MediatorNode="name" MediatorNodeType="attribute" NodeNameIsNodeValue="false" ValueIsIncrimental="false">
+                      <SemanticNodes />
+                    </SemanticNode>
+                    <SemanticNode MediatorNode="displayOrder" MediatorNodeType="attribute" NodeNameIsNodeValue="false" ValueIsIncrimental="true">
+                      <SemanticNodes />
+                    </SemanticNode>
+                    <SemanticNode MediatorNode="states" MediatorNodeType="attribute" NodeNameIsNodeValue="false" SemanticKey="state,states" ValueIsIncrimental="false">
+                      <SemanticNodes />
+                    </SemanticNode>
+                    <SemanticNode MediatorNode="allowCreationInState" MediatorNodeType="attribute" NodeNameIsNodeValue="false" SemanticKey="creational state, creational states" ValueIsIncrimental="false">
+                      <SemanticNodes />
+                    </SemanticNode>
+                  </SemanticNodes>
+                  <SemanticClusters />
+                  <Paragraph>
+                    <OriginalText>This phase has 1 state: Active.</OriginalText>
+                  </Paragraph>
+                </SemanticCluster>
+                <SemanticCluster MediatorNode="workflowStep" MediatorNodeType="element" NodeNameIsNodeValue="false" SemanticKey="Phase 3: Archived" ValueIsIncrimental="false">
+                  <SemanticNodes>
+                    <SemanticNode MediatorNode="name" MediatorNodeType="attribute" NodeNameIsNodeValue="false" ValueIsIncrimental="false">
+                      <SemanticNodes />
+                    </SemanticNode>
+                    <SemanticNode MediatorNode="displayOrder" MediatorNodeType="attribute" NodeNameIsNodeValue="false" ValueIsIncrimental="true">
+                      <SemanticNodes />
+                    </SemanticNode>
+                    <SemanticNode MediatorNode="states" MediatorNodeType="attribute" NodeNameIsNodeValue="false" SemanticKey="state,states" ValueIsIncrimental="false">
+                      <SemanticNodes />
+                    </SemanticNode>
+                    <SemanticNode MediatorNode="allowCreationInState" MediatorNodeType="attribute" NodeNameIsNodeValue="false" SemanticKey="creational state, creational states" ValueIsIncrimental="false">
+                      <SemanticNodes />
+                    </SemanticNode>
+                  </SemanticNodes>
+                  <SemanticClusters />
+                  <Paragraph>
+                    <OriginalText>This is a logical phase and is not visible in UI. It has 1 state: Closed.</OriginalText>
+                  </Paragraph>
+                </SemanticCluster>
+              </SemanticClusters>
+              <Paragraph>
+                <OriginalText>It has 3 phases: Request, Live, and Archived.</OriginalText>
+              </Paragraph>
+            </SemanticCluster>
+            <SemanticCluster MediatorNode="wizard" MediatorNodeType="array" MediatorNodeParent="workspace" NodeNameIsNodeValue="false" SemanticKey="Work Item Wizard Steps" ValueIsIncrimental="false">
+              <SemanticNodes />
+              <SemanticClusters>
+                <SemanticCluster MediatorNode="step" MediatorNodeType="element" NodeNameIsNodeValue="false" SemanticKey="Step 1: Details" ValueIsIncrimental="false">
+                  <SemanticNodes>
+                    <SemanticNode MediatorNode="id" MediatorNodeType="attribute" NodeNameIsNodeValue="false" ValueIsIncrimental="false">
+                      <SemanticNodes />
+                    </SemanticNode>
+                    <SemanticNode MediatorNode="visibleFromWorkflowSteps" MediatorNodeType="attribute" NodeNameIsNodeValue="false" SemanticKey="is visible on" ValueIsIncrimental="false">
+                      <SemanticNodes />
+                    </SemanticNode>
+                  </SemanticNodes>
+                  <SemanticClusters>
+                    <SemanticCluster MediatorNodeType="root" NodeNameIsNodeValue="false" SemanticKey="workItemVariant field" ValueIsIncrimental="false">
+                      <SemanticClusters />
+                      <Paragraph>
+                        <OriginalText>This field value should be copied when work item is copied. It is editable when work item is in Requesting state, for all work item variants, and by all users.</OriginalText>
+                      </Paragraph>
+                    </SemanticCluster>
+                    <SemanticCluster MediatorNodeType="root" NodeNameIsNodeValue="false" SemanticKey="title field" ValueIsIncrimental="false">
+                      <SemanticClusters />
+                      <Paragraph>
+                        <OriginalText>This field value should be copied when work item is copied.  It is editable when work item is in Requesting state, for all work item variants, and by all users.</OriginalText>
+                      </Paragraph>
+                    </SemanticCluster>
+                    <SemanticCluster MediatorNodeType="root" NodeNameIsNodeValue="false" SemanticKey="site field" ValueIsIncrimental="false">
+                      <SemanticClusters />
+                      <Paragraph>
+                        <OriginalText>This field value should be copied when work item is copied. It is mandatory. It is editable when work item is in Requesting state, for all work item variants, and by all users.</OriginalText>
+                      </Paragraph>
+                    </SemanticCluster>
+                    <SemanticCluster MediatorNodeType="root" NodeNameIsNodeValue="false" SemanticKey="workDescription field" ValueIsIncrimental="false">
+                      <SemanticClusters />
+                      <Paragraph>
+                        <OriginalText>This field value should be copied when work item is copied. It is mandatory. It is rich text box with 3 lines limits. It is editable when work item is in Requesting state, for all work item variants, and by all users.</OriginalText>
+                      </Paragraph>
+                    </SemanticCluster>
+                  </SemanticClusters>
+                  <Paragraph>
+                    <OriginalText>This wizard step is visible on Request phase. It has 5 fields: workItemVariant, title, site, workDescription, and workLocation</OriginalText>
+                  </Paragraph>
+                </SemanticCluster>
+                <SemanticCluster MediatorNode="step" MediatorNodeType="element" NodeNameIsNodeValue="false" SemanticKey="Step 2: Signing" ValueIsIncrimental="false">
+                  <SemanticNodes>
+                    <SemanticNode MediatorNode="id" MediatorNodeType="attribute" NodeNameIsNodeValue="false" ValueIsIncrimental="false">
+                      <SemanticNodes />
+                    </SemanticNode>
+                    <SemanticNode MediatorNode="visibleFromWorkflowSteps" MediatorNodeType="attribute" NodeNameIsNodeValue="false" SemanticKey="is visible on" ValueIsIncrimental="false">
+                      <SemanticNodes />
+                    </SemanticNode>
+                  </SemanticNodes>
+                  <SemanticClusters>
+                    <SemanticCluster MediatorNodeType="root" NodeNameIsNodeValue="false" SemanticKey="Activation signatureList" ValueIsIncrimental="false">
+                      <SemanticClusters />
+                      <Paragraph>
+                        <OriginalText>This signature list contains ActivatePermit signature.</OriginalText>
+                      </Paragraph>
+                    </SemanticCluster>
+                    <SemanticCluster MediatorNodeType="root" NodeNameIsNodeValue="false" SemanticKey="Closing signatureList" ValueIsIncrimental="false">
+                      <SemanticClusters />
+                      <Paragraph>
+                        <OriginalText>This signature list contains ClosePermit signature.</OriginalText>
+                      </Paragraph>
+                    </SemanticCluster>
+                  </SemanticClusters>
+                  <Paragraph>
+                    <OriginalText>This wizard step is visible on Request phase. It has 2 fields: Activation signatureList and Closing signatureList.</OriginalText>
+                  </Paragraph>
+                </SemanticCluster>
+              </SemanticClusters>
+              <Paragraph>
+                <OriginalText>It has 2 steps: Details and Signing</OriginalText>
+              </Paragraph>
+            </SemanticCluster>
+          </SemanticClusters>
+          <Paragraph>
+            <OriginalText>The work item type is Permit, its maximum hour to sign is 1 hour, and it has variants of coldwork.</OriginalText>
+          </Paragraph>
+        </SemanticCluster>
+      </SemanticClusters>
+      <Paragraph>
+        <OriginalText>The work item kinds are: Permit.</OriginalText>
+      </Paragraph>
+    </SemanticCluster>
+    <SemanticCluster MediatorNode="modules" MediatorNodeType="array" MediatorNodeParent="presentation" NodeNameIsNodeValue="false" SemanticKey="Modules" ValueIsIncrimental="false">
+      <SemanticNodes />
+      <SemanticClusters>
+        <SemanticCluster MediatorNode="module" MediatorNodeType="element" NodeNameIsNodeValue="false" SemanticKey="Module 1: Permit To Work" ValueIsIncrimental="false">
+          <SemanticNodes>
+            <SemanticNode MediatorNode="name" MediatorNodeType="attribute" NodeNameIsNodeValue="false" SemanticKey="module #: *" ValueIsIncrimental="false">
+              <SemanticNodes />
+            </SemanticNode>
+            <SemanticNode MediatorNode="visibleForRoles" MediatorNodeType="attribute" NodeNameIsNodeValue="false" SemanticKey="user with roles" ValueIsIncrimental="false">
+              <SemanticNodes />
+            </SemanticNode>
+            <SemanticNode MediatorNode="workspaces" MediatorNodeType="array" NodeNameIsNodeValue="false" ValueIsIncrimental="false">
+              <SemanticNodes>
+                <SemanticNode MediatorNode="workspace" MediatorNodeType="element" NodeNameIsNodeValue="false" ValueIsIncrimental="false">
+                  <SemanticNodes>
+                    <SemanticNode MediatorNode="kind" MediatorNodeType="attribute" NodeNameIsNodeValue="false" SemanticKey="workspaces are" ValueIsIncrimental="false">
+                      <SemanticNodes />
+                    </SemanticNode>
+                  </SemanticNodes>
+                </SemanticNode>
+              </SemanticNodes>
+            </SemanticNode>
+          </SemanticNodes>
+          <SemanticClusters />
+          <Paragraph />
+        </SemanticCluster>
+      </SemanticClusters>
+      <Paragraph>
+        <OriginalText>The system modules are: Permit To Work.</OriginalText>
+      </Paragraph>
+    </SemanticCluster>
+    <SemanticCluster MediatorNode="core" MediatorNodeType="element" NodeNameIsNodeValue="false" ValueIsIncrimental="false">
+      <SemanticNodes />
+      <SemanticClusters />
+    </SemanticCluster>
+    <SemanticCluster MediatorNode="presentation" MediatorNodeType="element" NodeNameIsNodeValue="false" ValueIsIncrimental="false">
+      <SemanticNodes />
+      <SemanticClusters />
+    </SemanticCluster>
+  </SemanticClusters>
+</SemanticGraph>
